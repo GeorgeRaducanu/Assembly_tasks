@@ -1,0 +1,28 @@
+Copyright Raducanu George-Cristian 311CA 2021-2022
+
+Task 1
+Simple cipher - Ceaser cipher implementatipn in ASM
+"label" in program is a for and "sar" is a basic % operation
+in rest, the program is simple and the comentaries are quite clear
+
+Task 2.1
+For this task I have used the mathematics tric described in the comments.
+The idea is to calculate abs(p1.x + p1.y - p2.x - p2.y)
+That is the distence
+
+Task 2.2
+For this I have used the same idea from 2.1 and extra I iterated with a "for" in the vector
+
+Task 2.3
+I iterated in the vector and I wrote 0 in all positions.
+With another iteration I check using the mull function in a "while" that the number is a perfect square
+If the number is a perfect square I write 1
+
+Task 3
+For the Beaufort encryption I decided to use the formula aproach instead of the tabula recta one.
+For ease of use the formula is (key(i % len_key) - plain(i)) % 26 + 'A'
+This formula is implemented in the program and I consider it to be more effective than the tabula_recta
+and it is also more easy to implement it.
+
+Task 4
+This task should be done the following. Go through the matrix in spiral order and then add with a[i][j] the character as done in task 1
